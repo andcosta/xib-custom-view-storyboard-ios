@@ -12,6 +12,9 @@
 		71FB1C3121488760003E31C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FB1C2F21488760003E31C1 /* Main.storyboard */; };
 		71FB1C3321488763003E31C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FB1C3221488763003E31C1 /* Assets.xcassets */; };
 		71FB1C3621488763003E31C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FB1C3421488763003E31C1 /* LaunchScreen.storyboard */; };
+		71FB1C422149E237003E31C1 /* ACustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71FB1C412149E237003E31C1 /* ACustomView.xib */; };
+		71FB1C442149E245003E31C1 /* BCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71FB1C432149E245003E31C1 /* BCustomView.xib */; };
+		71FB1C462149E25C003E31C1 /* CellCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71FB1C452149E25C003E31C1 /* CellCustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		71FB1C3221488763003E31C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71FB1C3521488763003E31C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71FB1C3721488763003E31C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71FB1C412149E237003E31C1 /* ACustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ACustomView.xib; sourceTree = "<group>"; };
+		71FB1C432149E245003E31C1 /* BCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BCustomView.xib; sourceTree = "<group>"; };
+		71FB1C452149E25C003E31C1 /* CellCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellCustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 		71FB1C2A21488760003E31C1 /* custom-view-storyboard-ios */ = {
 			isa = PBXGroup;
 			children = (
+				71FB1C3D2149E0F4003E31C1 /* views */,
+				71FB1C3E2149E103003E31C1 /* controllers */,
 				71FB1C2B21488760003E31C1 /* AppDelegate.swift */,
 				71FB1C2D21488760003E31C1 /* ViewController.swift */,
 				71FB1C2F21488760003E31C1 /* Main.storyboard */,
@@ -62,6 +70,23 @@
 				71FB1C3721488763003E31C1 /* Info.plist */,
 			);
 			path = "custom-view-storyboard-ios";
+			sourceTree = "<group>";
+		};
+		71FB1C3D2149E0F4003E31C1 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				71FB1C412149E237003E31C1 /* ACustomView.xib */,
+				71FB1C432149E245003E31C1 /* BCustomView.xib */,
+				71FB1C452149E25C003E31C1 /* CellCustomView.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		71FB1C3E2149E103003E31C1 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				71FB1C3621488763003E31C1 /* LaunchScreen.storyboard in Resources */,
+				71FB1C442149E245003E31C1 /* BCustomView.xib in Resources */,
 				71FB1C3321488763003E31C1 /* Assets.xcassets in Resources */,
+				71FB1C462149E25C003E31C1 /* CellCustomView.xib in Resources */,
 				71FB1C3121488760003E31C1 /* Main.storyboard in Resources */,
+				71FB1C422149E237003E31C1 /* ACustomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +308,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "custom-view-storyboard-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.mobimee.custom-view-storyboard-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,7 +328,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "custom-view-storyboard-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.mobimee.custom-view-storyboard-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
