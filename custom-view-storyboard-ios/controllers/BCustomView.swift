@@ -12,14 +12,12 @@ import UIKit
     
     @IBOutlet weak var lbCustom: UILabel!
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setup()
-    }
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        // LoadViewFromNibHelper().loadViewFromNib(nibName: "BCustomView", refSelf: self)
         setup()
+        
+        lbCustom.text = "View custom B"
     }
     
     func setup() {
@@ -44,4 +42,5 @@ import UIKit
         
         return view
     }
+
 }

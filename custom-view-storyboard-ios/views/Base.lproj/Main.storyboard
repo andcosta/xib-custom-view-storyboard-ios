@@ -18,36 +18,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nic-5t-IqZ" userLabel="A Custom View" customClass="ACustomView" customModule="custom_view_storyboard_ios" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="153"/>
-                                <color key="backgroundColor" red="0.78749543428421021" green="0.16411849856376648" blue="0.075157351791858673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Jy-Wq-k4Y" customClass="ACustomView" customModule="custom_view_storyboard_ios" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="143"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="153" id="etW-fA-BMF"/>
+                                    <constraint firstAttribute="height" constant="143" id="XJR-rb-vzt"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Jc-VS-rcH" customClass="BCustomView" customModule="custom_view_storyboard_ios" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="528" width="375" height="139"/>
-                                <color key="backgroundColor" red="0.64610576629638672" green="0.68868875503540039" blue="0.075036294758319855" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ai-t1-JC0" customClass="BCustomView" customModule="custom_view_storyboard_ios" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="532" width="375" height="135"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="139" id="TyQ-eJ-4dO"/>
+                                    <constraint firstAttribute="height" constant="135" id="7ym-kb-9V9"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="nic-5t-IqZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9Xf-EW-RPH"/>
-                            <constraint firstItem="nic-5t-IqZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HaP-YM-i0r"/>
-                            <constraint firstItem="nic-5t-IqZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Lg2-af-w6z"/>
-                            <constraint firstItem="5Jc-VS-rcH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="c47-La-Z4x"/>
-                            <constraint firstItem="5Jc-VS-rcH" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="m0r-GQ-CM9"/>
-                            <constraint firstItem="5Jc-VS-rcH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="qTB-w0-hMg"/>
+                            <constraint firstItem="3Jy-Wq-k4Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0Js-BY-C7F"/>
+                            <constraint firstItem="6ai-t1-JC0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6ay-7n-BJy"/>
+                            <constraint firstItem="3Jy-Wq-k4Y" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="C7t-YI-88Z"/>
+                            <constraint firstItem="3Jy-Wq-k4Y" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fNl-bn-HFq"/>
+                            <constraint firstItem="6ai-t1-JC0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kvy-1X-h9K"/>
+                            <constraint firstItem="6ai-t1-JC0" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="t6x-H2-nuP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+            <point key="canvasLocation" x="136.5" y="132.5"/>
         </scene>
     </scenes>
 </document>

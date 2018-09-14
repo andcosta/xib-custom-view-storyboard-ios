@@ -12,36 +12,10 @@ import UIKit
     
     @IBOutlet weak var lbCustom: UILabel!
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setup()
-    }
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        setup()
-    }
-    
-    func setup() {
-        let view = loadViewFromNib()
-        view.frame = bounds
+        LoadViewFromNibHelper().loadViewFromNib(nibName: "ACustomView", refSelf: self)
         
-        view.autoresizingMask =
-            UIViewAutoresizing(rawValue: UIViewAutoresizing.RawValue(
-                UInt8(UIViewAutoresizing.flexibleWidth.rawValue) |
-                    UInt8(UIViewAutoresizing.flexibleHeight.rawValue)))
-        
-        addSubview(view)
-    }
-    
-    func loadViewFromNib() -> UIView {
-        let bundle = Bundle(for: type(of: self))
-        let nib = UINib(nibName: "ACustomView", bundle: bundle)
-        
-        guard let view = nib.instantiate(withOwner: self, options: nil).first as? UIView else {
-            fatalError("Could not load view from nib file.")
-        }
-        
-        return view
+        lbCustom.text = "View custom A"
     }
 }
