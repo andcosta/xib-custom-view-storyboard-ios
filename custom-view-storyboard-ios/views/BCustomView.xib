@@ -13,12 +13,24 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="357" height="128"/>
+            <rect key="frame" x="0.0" y="0.0" width="346" height="108"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View custom B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0c-j2-rZU">
+                    <rect key="frame" x="113" y="44" width="121" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.96001976728439331" green="0.91078001260757446" blue="0.027413157746195793" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="u0c-j2-rZU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="AlO-gs-ALs"/>
+                <constraint firstItem="u0c-j2-rZU" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="wR2-hg-LfU"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <point key="canvasLocation" x="24.5" y="-216"/>
+            <point key="canvasLocation" x="19" y="-226"/>
         </view>
     </objects>
 </document>

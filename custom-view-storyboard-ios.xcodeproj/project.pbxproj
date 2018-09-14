@@ -63,8 +63,6 @@
 				71FB1C3D2149E0F4003E31C1 /* views */,
 				71FB1C3E2149E103003E31C1 /* controllers */,
 				71FB1C2B21488760003E31C1 /* AppDelegate.swift */,
-				71FB1C2D21488760003E31C1 /* ViewController.swift */,
-				71FB1C2F21488760003E31C1 /* Main.storyboard */,
 				71FB1C3221488763003E31C1 /* Assets.xcassets */,
 				71FB1C3421488763003E31C1 /* LaunchScreen.storyboard */,
 				71FB1C3721488763003E31C1 /* Info.plist */,
@@ -78,6 +76,7 @@
 				71FB1C412149E237003E31C1 /* ACustomView.xib */,
 				71FB1C432149E245003E31C1 /* BCustomView.xib */,
 				71FB1C452149E25C003E31C1 /* CellCustomView.xib */,
+				71FB1C2F21488760003E31C1 /* Main.storyboard */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -85,6 +84,7 @@
 		71FB1C3E2149E103003E31C1 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				71FB1C2D21488760003E31C1 /* ViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
